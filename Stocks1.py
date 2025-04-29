@@ -5,7 +5,7 @@ import numpy as np
 import yfinance as yf
 import streamlit as st
 import matplotlib.pyplot as plt 
-from keras.models import load_model # type: ignore
+from keras.models import load_model 
 
 model = load_model(r'C:\Users\geniu\finalproject1\StocksModel.keras')
 
